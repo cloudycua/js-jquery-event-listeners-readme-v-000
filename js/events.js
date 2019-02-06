@@ -9,7 +9,7 @@ function getIt() {
 
 // bind 'load' event to image which adds 'tasty' class (adds red border)
 function frameIt() {
-  $('img').on('click', function() {
+  $('img').on('load', function() {
     $('img').addClass('tasty')
   })
 }
