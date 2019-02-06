@@ -2,7 +2,7 @@
 
 // bind a 'click' event (alert "Hey!") to the 'p' tag
 function getIt() {
-  $('p').on('load', function() {
+  $('p').on('click', function() {
     alert('hey!')
   })
 }
